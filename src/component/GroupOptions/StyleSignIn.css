@@ -1,0 +1,118 @@
+.list-container:after {
+  filter: hue-rotate(0deg);
+  
+  pointer-events: none !important;
+  position: fixed;
+  left: 0;
+  top: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-image: url(https://i.imgur.com/QqP0mWL.png=);
+  animation: SAKURA 12s linear infinite;
+  z-index: -5;
+  }
+  @keyframes SAKURA {
+  0% { background-position: 0 0, 0 0, 0 0; }
+  100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
+  }
+  /* Sign Up form styles */
+.list-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-container form input {
+  width: 250px; /* Adjust width as needed */
+  margin-bottom: 10px; /* Add spacing between inputs */
+}
+/* Cloud Button Styles */
+.cloud-button {
+  background-color: #ffffff; /* Cloud color */
+  border: 1px solid #cccccc; /* Border color */
+  border-radius: 20px; /* Adjust border radius as needed */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.signin-body  {
+  margin: 10;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./cherryblossom.jpeg'); /* Adjust path as per your file structure */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Horizontally center the form */
+  align-items: center; /* Vertically center the form */
+}
+.cloud-button:hover {
+  background-color: #f0f0f0; /* Lighter cloud color on hover */
+}
+/* Wooden Board Styles */
+.wooden-board {
+  background-color: #8B4513; /* Brown color for the wooden board */
+  padding: 20px; /* Add padding to create space around the text */
+  border-radius: 10px; /* Add rounded corners to the wooden board */
+  display: inline-block; /* Make the container inline-block to fit content */
+}
+
+/* Main Heading Styles */
+.main-heading {
+  font-size: 24px;
+  color: #FFFFFF; /* White color for the text */
+  text-align: center;
+  margin: 0; /* Remove default margin */
+}
+/* Style for input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: none;
+    border-radius: 20px; /* Adjust the border-radius to make it more rounded */
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f7f7f7;
+    width: 200px; /* Set width as needed */
+    margin: 10px; /* Add margin for spacing */
+    text-align: center; /* Center the text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Add hover effect */
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* Add focus effect */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    background-color: #fff; /* White background color on focus */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Stronger shadow on focus */
+}
+/* Style for sticky notes */
+.sticky-note {
+
+  background-color: #ffcc66; /* Yellow background color */
+  padding: 10px; /* Padding inside the sticky note */
+  width: 200px; /* Adjust width as needed */
+  max-width: 100%; /* Allow the note to shrink if necessary */
+  border-radius: 10px; /* Rounded corners */
+  font-family: Arial, sans-serif; /* Choose appropriate font */
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 1.5; /* Adjust line height for readability */
+  margin-bottom: 20px; /* Add margin for spacing between notes */
+  border: 8px solid transparent; /* Set initial border as transparent */
+  box-sizing: border-box; /* Ensure border width doesn't affect the size */
+  border-image: 
+      linear-gradient(45deg, #ff6600, #ffcc00, #ff6600) 10; /* Wavy border image */
+}
+

@@ -1,0 +1,13 @@
+.backimage {
+    margin: 10;
+    padding: 50;
+    font-family: Arial, sans-serif;
+    background-image: url('./GroupJoin.jpeg'); /* Adjust path as per your file structure */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center; /* Horizontally center the form */
+    align-items: center; /* Vertically center the form */
+  }
+  

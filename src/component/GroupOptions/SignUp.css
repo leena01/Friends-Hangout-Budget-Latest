@@ -1,0 +1,73 @@
+.list-container:after {
+    filter: hue-rotate(0deg);
+    
+    pointer-events: none !important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.imgur.com/QqP0mWL.png);
+    animation: SAKURA 12s linear infinite;
+    z-index: -5;
+    }
+    @keyframes SAKURA {
+    0% { background-position: 0 0, 0 0, 0 0; }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
+    }
+    .signup-body  {
+    margin: 10;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./cherryblossom.jpeg'); /* Adjust path as per your file structure */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Horizontally center the form */
+    align-items: center; /* Vertically center the form */
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Align text and content to the center */
+    width: 300px; /* Set a fixed width for the container */
+  }
+  
+  .container h2 {
+    margin-bottom: 20px; /* Add spacing between heading and form */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Add spacing between form groups */
+  }
+  
+  .form-group label {
+    display: block; /* Display labels as blocks to create vertical alignment */
+  }
+  
+  .form-group input {
+    width: 100%; /* Set input fields to take up full width of container */
+    padding: 10px; /* Add padding for better readability */
+    border-radius: 5px; /* Add border radius for a rounded appearance */
+    border: 1px solid #ccc; /* Add border for input fields */
+    box-sizing: border-box; /* Include padding and border in the width */
+  }
+  /* Cloud Button Styles */
+.cloud-button {
+    background-color: #ffffff; /* Cloud color */
+    border: 1px solid #cccccc; /* Border color */
+    border-radius: 20px; /* Adjust border radius as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cloud-button:hover {
+    background-color: #f0f0f0; /* Lighter cloud color on hover */
+  }
